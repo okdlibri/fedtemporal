@@ -1,0 +1,58 @@
+# Experiment results and data (not included in repository)
+results/
+results_phase_c/
+fedtemporal_results*/
+data_cache/
+
+# Server management scripts (contain server-specific configuration)
+check_*.py
+restart_*.py
+relaunch_*.py
+*_server*.py
+fetch_server_code.py
+launch_phase_c.py
+monitor_jobs.py
+diagnose_jobs.py
+upload_and_launch.py
+find_cuda_env.py
+find_tf_gpu.py
+fix_cuda.py
+find_tf_env.py
+test_tf_gpu.py
+compute_detection_metrics.py
+
+# Old version
+fedtemporal_v1.py
+
+# Private files
+server-info.txt
+reviewer-comments.txt
+manuscript/
+submissions/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code (internal tooling)
+.claude/
